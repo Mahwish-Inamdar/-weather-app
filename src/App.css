@@ -1,0 +1,110 @@
+/* For the body background */
+body {
+  background-image: url('https://wallpapercave.com/wp/wp4683091.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Make sure the image covers the whole screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* If you want to add the background to .App-header instead */
+.App-header {
+  background-image: url(''); /* Replace with your image URL */
+  background-size: cover; /* Make sure the image covers the header */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.App-header h1 {
+  font-size: 2.5rem; /* Larger font size for emphasis */
+  color: #ffffff; /* White color for better visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Slight shadow for depth */
+}
+
+.App-header p {
+  font-size: 1.2rem; /* Slightly larger paragraph */
+  color: #ffffff; /* White color for readability */
+}
+
+
+
+
+
+
+/* Input field styling */
+.city-input {
+  padding: 10px; /* Add padding inside the input */
+  font-size: 16px; /* Increase font size */
+  border: 2px solid #61dafb; /* Add a border with a specific color */
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 10px; /* Space between input and button */
+}
+
+/* Button styling */
+.search-button {
+  padding: 10px; /* Add padding inside the button */
+  font-size: 16px; /* Increase font size */
+  background-color: #61dafb; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.search-button:hover {
+  background-color: #21a1f1; /* Darker blue on hover */
+}
+
+/* Weather info styling */
+#weather-info {
+  margin-top: 20px; /* Add space above the weather info */
+  padding: 20px; /* Add padding inside the weather info box */
+  background-color: #ffffff; /* White background for the info box */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Search container styling */
+.search-container {
+  display: flex; /* Align items in a row */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Space below the search bar */
+}
+
+/* Forecast container styling */
+.forecast-container {
+  display: flex; /* Use flexbox to layout forecast items */
+  justify-content: center; /* Center items */
+  margin-top: 20px; /* Add some margin above forecast */
+}
+
+/* Forecast items styling */
+.forecast-item {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  border: 1px solid #61dafb; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px; /* Margin around each forecast item */
+  padding: 15px; /* Padding inside forecast item */
+  width: 150px; /* Fixed width for forecast item */
+  text-align: center; /* Center-align text in forecast item */
+}
+
+/* Error message styling */
+.error-message {
+  color: red; /* Red color for error messages */
+  margin-top: 10px; /* Add margin above error message */
+}
